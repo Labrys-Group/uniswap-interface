@@ -5,9 +5,6 @@
 /src/locales/**/*.js
 /src/locales/**/*.po
 
-# generated files
-/src/**/__generated__
-
 # dependencies
 /node_modules
 
