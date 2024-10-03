@@ -8418,6 +8418,52 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sentry-internal/browser-utils@npm:8.33.0":
+  version: 8.33.0
+  resolution: "@sentry-internal/browser-utils@npm:8.33.0"
+  dependencies:
+    "@sentry/core": 8.33.0
+    "@sentry/types": 8.33.0
+    "@sentry/utils": 8.33.0
+  checksum: e816b42d391703496eeaf981afeaa11634260d07af780505a89b02bce53c92305d7305ee40cf559932d45368e2274d0c2559cde9efbde3cc0aa569b299000fd4
+  languageName: node
+  linkType: hard
+
+"@sentry-internal/feedback@npm:8.33.0":
+  version: 8.33.0
+  resolution: "@sentry-internal/feedback@npm:8.33.0"
+  dependencies:
+    "@sentry/core": 8.33.0
+    "@sentry/types": 8.33.0
+    "@sentry/utils": 8.33.0
+  checksum: 63ebabcebef533fcf99747191d73996965a8f5c273f6cf67bbc448763404ed870748bcb49c7b2c66d41b4ab4ec72b26820bc660f64c26603c0ae34a52acb1b2d
+  languageName: node
+  linkType: hard
+
+"@sentry-internal/replay-canvas@npm:8.33.0":
+  version: 8.33.0
+  resolution: "@sentry-internal/replay-canvas@npm:8.33.0"
+  dependencies:
+    "@sentry-internal/replay": 8.33.0
+    "@sentry/core": 8.33.0
+    "@sentry/types": 8.33.0
+    "@sentry/utils": 8.33.0
+  checksum: b38e434e35fdc5a4f4e71c57b4a837d11c49352d80e4747b7456778e611dfeda2d8562f75ef8883edd6e89a55c4089aecdf44b45c9865e726795cbf9246635db
+  languageName: node
+  linkType: hard
+
+"@sentry-internal/replay@npm:8.33.0":
+  version: 8.33.0
+  resolution: "@sentry-internal/replay@npm:8.33.0"
+  dependencies:
+    "@sentry-internal/browser-utils": 8.33.0
+    "@sentry/core": 8.33.0
+    "@sentry/types": 8.33.0
+    "@sentry/utils": 8.33.0
+  checksum: 833db03760d970f8b3b4151ed15525d1953232ea7cf621be5f4437d39a2ece714559fedc13b7edc1230a82ce5f0cd61a5f2d5b8bb2d7f3b672f1518c67018283
+  languageName: node
+  linkType: hard
+
 "@sentry-internal/tracing@npm:7.45.0":
   version: 7.45.0
   resolution: "@sentry-internal/tracing@npm:7.45.0"
@@ -8480,6 +8526,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sentry/browser@npm:8.33.0":
+  version: 8.33.0
+  resolution: "@sentry/browser@npm:8.33.0"
+  dependencies:
+    "@sentry-internal/browser-utils": 8.33.0
+    "@sentry-internal/feedback": 8.33.0
+    "@sentry-internal/replay": 8.33.0
+    "@sentry-internal/replay-canvas": 8.33.0
+    "@sentry/core": 8.33.0
+    "@sentry/types": 8.33.0
+    "@sentry/utils": 8.33.0
+  checksum: f87acac6671c5cf6338e38b894639559f104d5e427a016299c69d66a6dc95119a420e4fefb4fb7b30148218e0d79c25faf6644e50a54143a488ef069e7d27288
+  languageName: node
+  linkType: hard
+
 "@sentry/cli@npm:2.17.5":
   version: 2.17.5
   resolution: "@sentry/cli@npm:2.17.5"
@@ -8524,6 +8585,16 @@ __metadata:
     "@sentry/types": 7.80.0
     "@sentry/utils": 7.80.0
   checksum: 5b47929febbc517c4f9727abc73dd0d9fa0b21de3185eb21486a07409f27b84af9a58919d1341acda804e117f57aa9946187b35215edb8ac50745f9274edd5ae
+  languageName: node
+  linkType: hard
+
+"@sentry/core@npm:8.33.0":
+  version: 8.33.0
+  resolution: "@sentry/core@npm:8.33.0"
+  dependencies:
+    "@sentry/types": 8.33.0
+    "@sentry/utils": 8.33.0
+  checksum: 53a7a0feb1ad568b3d3e7e9e43ef61537df79243aeb2e2b0c86dc2470501a4f6c3f21295dc60c1bcb90618d941d5191c197a4d609c63248bdedf761020347431
   languageName: node
   linkType: hard
 
@@ -8671,6 +8742,15 @@ __metadata:
   dependencies:
     "@sentry/types": 7.80.0
   checksum: 14442040f97e5dffbb3dd2f3903e954a68b24d9f60dbfd7a2b3a475859ecee8ac1d0adcab1037a423f854d4b3708cd115a8c0514ed2fe10cb9f86b663c765e0a
+  languageName: node
+  linkType: hard
+
+"@sentry/utils@npm:8.33.0":
+  version: 8.33.0
+  resolution: "@sentry/utils@npm:8.33.0"
+  dependencies:
+    "@sentry/types": 8.33.0
+  checksum: e0b22eea86461bfed1c486108677e2d43571a678041020d74dc48bb354b0dff11584b69e297272b39f180231cdffefb2157e13a0eeeae43b2fedac6b87d81728
   languageName: node
   linkType: hard
 
@@ -13379,7 +13459,7 @@ __metadata:
     "@reach/portal": 0.10.5
     "@reduxjs/toolkit": 1.9.3
     "@rive-app/react-canvas": 4.6.2
-    "@sentry/browser": 7.80.0
+    "@sentry/browser": 8.33.0
     "@sentry/core": 7.80.0
     "@sentry/react": 7.80.0
     "@sentry/types": 7.80.0
